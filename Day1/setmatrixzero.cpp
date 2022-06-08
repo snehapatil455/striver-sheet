@@ -12,7 +12,7 @@ public:
             matrix[i][0] = matrix[0][j]=0;
         }
 
-        //traverse from back
+        //traverse from back/////
         for(int i=rows-1; i>=0; i--)
         {
             for(int j =cols-1; j>=1; j--)
